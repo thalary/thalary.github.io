@@ -11,19 +11,19 @@ xmlhttp.open("GET", url , true);
 xmlhttp.send();
 }
 function homePageLoading(){
-var url ="http://bitcoin.mubiz.com/info";
+var url ="https://bitcoin.mubiz.com/info";
 var elementID ="info";
 fonctionRequeteApi(url,elementID);
 
-var url ="http://bitcoin.mubiz.com/blockchaininfo";
+var url ="https://bitcoin.mubiz.com/blockchaininfo";
 var elementID ="blockchaininfo";
 fonctionRequeteApi(url,elementID);
 
-var url ="http://bitcoin.mubiz.com/peerinfo";
+var url ="https://bitcoin.mubiz.com/peerinfo";
 var elementID ="peerinfo";
 fonctionRequeteApi(url,elementID);
 
-var url ="http://bitcoin.mubiz.com/mininginfo";
+var url ="https://bitcoin.mubiz.com/mininginfo";
 var elementID ="mininginfo";
 fonctionRequeteApi(url,elementID);
 }
